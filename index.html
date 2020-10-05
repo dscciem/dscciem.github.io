@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=no"
+    />
+    <meta name="author" content="DSC CIEM" />
+    <meta
+      name="description"
+      content="Developer Student Clubs (DSC) is a Google Developers program for university students to learn mobile and web development skills."
+    />
+    <meta
+      name="keywords"
+      content="clubs in kolkata, dsc ciem, coding, google developers, ciem, india, kolkata, computer science"
+    />
+    <meta name="theme-color" content="#2F5BE7" />
+    <title>DSC | CIEM</title>
+
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- style="position: fixed; width: 100%; background-color: #fff" -->
+    <header class="nav-header">
+      <div class="container">
+        <nav
+          id="main-nav"
+          class="navbar"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <!-- navigation pane goes here -->
+          <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img
+                src="img/DSC_Chapter_Logos/DSC_Ciem_Light_Horizontal_Logo.png"
+                width="300"
+                height="50"
+                alt="DSC logo"
+              />
+            </a>
+            <a
+              role="button"
+              onclick="toggleMenu()"
+              class="navbar-burger burger"
+              style="padding-top: 1.2rem"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarLinks"
+            >
+              <i class="fas fa-bars fa-2x"></i>
+            </a>
+          </div>
+
+          <div id="navbarLinks" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="#overview" class="navbar-item">Overview</a>
+              <a href="#technologies" class="navbar-item">Technologies</a>
+              <a href="#team" class="navbar-item">Team</a>
+              <a href="#faq" class="navbar-item">FAQ</a>
+              <div class="navbar-item">
+                <a
+                  href="https://discord.gg/m7Zh8HJ"
+                  target="_blank"
+                  class="btn event-btn"
+                  >Join Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="overview" class="section-spacer">
+      <div class="container">
+        <div class="cols">
+          <div class="welcome col-sm-6 col-5">
+            <h2>
+              Developer Student Club<br />Calcutta Institute of Engineering & Management
+            </h2>
+            <div>
+              <p>
+                Developer Student Clubs is a <span class="first-letter">G</span
+                ><span class="second-letter">o</span
+                ><span class="third-letter">o</span
+                ><span class="first-letter">g</span
+                ><span class="fourth-letter">l</span
+                ><span class="second-letter">e</span> Developers program for
+                university students to learn<span class="third-letter">
+                  mobile</span
+                >
+                and <span class="first-letter">web development skills</span>,
+                <span class="second-letter">design thinking skills</span> and
+                <span class="fourth-letter"> leadership skills</span>.
+              </p>
+              <br />
+              <a
+                href="https://discord.gg/m7Zh8HJ"
+                class="btn"
+                style="border-radius: 1.4rem"
+                target="_blank"
+                ><i class="fab fa-meetup"></i> &nbsp; Join on Discord
+                
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-5 ml-auto">
+            <img class="section-img" src="img/diversity.png" alt="diversity" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview-cards" class="section-spacer">
+      <div class="container">
+        <div class="cols center-items">
+          <div class="col-4">
+            <div class="card overview-card">
+              <i class="fas fa-rocket ghost-blue"></i>
+              <div class="card-body">
+                <h4>Concept of DSC</h4>
+                <p>
+                  The DSC program is a grassroots channel through which Google
+                  provides development skills, mobile and web development skills
+                  for students.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card overview-card">
+              <i class="fas fa-lightbulb ghost-green"></i>
+              <div class="card-body">
+                <h4>Why DSC?</h4>
+                <p>
+                  For students to learn development skills, solve problems
+                  through technology and inspire them to be world-class
+                  developers and changemakers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card overview-card">
+              <i class="fas fa-users ghost-red"></i>
+              <div class="card-body">
+                <h4>Target audience</h4>
+                <p>
+                  DSC activities are targeted at University students and any
+                  others including faculty members who want to learn development
+                  skills & work to solve real-life problems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="technologies" class="section-spacer gray-bg">
+      <div class="container">
+        <header class="section-header text-center">
+          <h2 class="section-title">Technologies we're excited about</h2>
+          <p class="section-subtitle">
+            Opportunities to learn &amp; access deep technical content.
+          </p>
+          <br />
+        </header>
+        <div class="cols center-items">
+          <div class="col-6">
+            <div class="feature-list-image">
+              <img class="section-img" src="img/android.jpg" alt="diversity" />
+            </div>
+          </div>
+          <div class="col-5 ml-auto">
+            <div class="feature-list-wrapper">
+              <div class="content-header">
+                <h2 class="content-title">Android Development</h2>
+                <p>
+                  Every year Google developers release exciting new updates to
+                  the world's most popular operating system. We always have
+                  sessions to keep you updated and mastering the latest trends
+                  in modern Android development.
+                </p>
+              </div>
+              <br />
+              <a
+                href="https://codelabs.developers.google.com/?cat=Android"
+                class="hero-button"
+                style="border-radius: 1.4rem"
+                target="_blank"
+                >Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="web-technologies" class="section-spacer">
+      <div class="container">
+        <div class="cols center-items">
+          <div class="col-5">
+            <div class="feature-list-wrapper">
+              <div class="content-header">
+                <h2 class="content-title">Web Development</h2>
+                <p>
+                  Learn the core foundations of a delightful web experience both
+                  for the user and developer. Stay up to tabs with emerging and
+                  trending technologies. Get access to a guided, tutorial and
+                  hands-on coding experience.
+                </p>
+              </div>
+              <br />
+              <a
+                href="https://codelabs.developers.google.com/?cat=Web"
+                class="hero-button"
+                target="_blank"
+                style="border-radius: 1.4rem"
+                >Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-6 ml-auto">
+            <div class="feature-list-image">
+              <img class="section-img" src="img/web.webp" alt="diversity" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ml-technologies" class="section-spacer gray-bg">
+      <div class="container">
+        <div class="cols center-items">
+          <div class="col-6">
+            <div class="feature-list-image">
+              <img class="section-img" src="img/ml.svg" alt="diversity" />
+            </div>
+          </div>
+          <div class="col-5 ml-auto">
+            <div class="feature-list-wrapper">
+              <div class="content-header">
+                <h2 class="content-title">Machine Learning</h2>
+                <p>
+                  Learn how to drive user engagement and retention with
+                  intelligent apps that are able to effectively serve users what
+                  they need without the fuss by providing these systems with the
+                  ability to automatically learn and improve from experience
+                  without being explicitly programmed.
+                </p>
+              </div>
+              <br />
+              <a
+                href="https://codelabs.developers.google.com/"
+                class="hero-button"
+                style="border-radius: 1.4rem"
+                target="_blank"
+                >Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="web-technologies" class="section-spacer">
+      <div class="container">
+        <div class="cols center-items">
+          <div class="col-5">
+            <div class="feature-list-wrapper">
+              <div class="content-header">
+                <h2 class="content-title">Cloud Computing</h2>
+                <p>
+                  For passionate developers who want to stay relevant in a cloud
+                  first world where businesses demand for agility and innovation
+                  and prompt rise of cloud-native applications to ridges gaps
+                  between data, insight, and action.
+                </p>
+              </div>
+              <br />
+              <a
+                href="https://codelabs.developers.google.com/?cat=cloud"
+                class="hero-button"
+                style="border-radius: 1.4rem"
+                target="_blank"
+                >Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-6 ml-auto">
+            <div class="feature-list-image">
+              <img class="section-img" src="img/cloud.png" alt="diversity" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="section-spacer">
+      <div class="container">
+        <header class="section-header text-center">
+          <h2 class="section-title">Meet The DSC CIEM Team</h2>
+          <p class="section-subtitle">
+            Passionate students and faculty staff driving the success of the
+            program.
+          </p>
+        </header>
+        <section id="overview-cards" class="section-spacer">
+          <div class="container" style="display: flex">
+            <div class="cols center-items" style="justify-content: center">
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/avisek.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Avisek Shaw</h3>
+                    <h4>DSC Lead</h4>
+                    <div>Web & Cloud Developer</div>
+                    <div>Google AI | ML facilitator</div>
+                    <div>Open-source Contributor</div>
+                    <div>Trainer</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="https://twitter.com/AvisekShaw6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/avisek-shaw-78136b196/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/shawavisek35"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/agnibesh.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Agnibesh Mukherjee</h3>
+                    <h4>Technical Lead</h4>
+                    <div>Full Stack Web Developer</div>
+                    <div>Open Source contributor</div>
+                    <div>Image Processing</div>
+                    <div> </div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="ttps://twitter.com/hsebinga"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/MightyPhoenix7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/MightyPhoenix"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/sristi.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Sristi Dakshit</h3>
+                    <h4>PR Lead</h4>
+                    <div>Mobile and Web Developer</div>
+                    <div>Organisation and Public Realtion enthusiast</div>
+                    <div>Conscientious Learner and Teacher</div>
+                    <div> </div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <!-- <a
+                        href="https://twitter.com/sristi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a> -->
+                      <a
+                        href="https://www.linkedin.com/in/sristidakshit0013/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/SDakshit"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github">
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/madhurima.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Madhurima Maji</h3>
+                    <h4>Event Manager</h4>
+                    <div>Tangible and Digital Interaction Designer</div>
+                    <div>AI Developer</div>
+                    <div>UX Researcher</div>
+                    <div>Storyteller</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <!-- <a
+                        href="http://twitter.com/madhurima"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a> -->
+                      <a
+                        href="https://www.linkedin.com/in/madhurima01"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/madhurima99"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/sagnik.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Sagnik Chattopadhyaya</h3>
+                    <h4>Development Lead</h4>
+                    <div>Web Developer</div>
+                    <div>Coding Enthusiast</div>
+                    <div>Open Source contributor</div>
+                    <div>Trainer</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="https://twitter.com/sagnik_20"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/sagnik-chattopadhyaya/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/sagnik20/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/subhayu.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Subhayu Kumar Bala</h3>
+                    <h4>Graphics Lead</h4>
+                    <div>Python Developer</div>
+                    <div>Competitive Coder</div>
+                    <div>Python Automation</div>
+                    <div>Trainer</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="https://twitter.com/subhayu99"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/subhayu-kumar-bala"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/subhayu99"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/snehasis.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Snehashis Sarkar</h3>
+                    <h4>Publications and Web Lead</h4>
+                    <div>Python Developer</div>
+                    <div>Competitive Coder</div>
+                    <div>Python Automation</div>
+                    <div>Trainer</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="https://twitter.com/snehashis_2000"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/snehashis-sarkar-40696019b/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/snehashis365"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4" style="width: 80%">
+                <div class="card overview-card text-center">
+                  <img
+                    src="https://github.com/sagnik20/synthack/blob/master/src/components/Images/hasibul.png?raw=true"
+                    style="border-radius: 50%"
+                    width="100"
+                    height="100"
+                    alt=""
+                  />
+                  <div
+                    class="card-body"
+                    style="font-size: 0.8rem; padding-bottom: 1.2rem"
+                  >
+                    <h3>Hasibul Islam Sazzad</h3>
+                    <h4>Creative and Marketing Lead</h4>
+                    <div>Python Developer</div>
+                    <div>Competitive Coder</div>
+                    <div>Python Automation</div>
+                    <div>Trainer</div>
+                  </div>
+                  <div
+                    class="card-footer"
+                    style="
+                      font-size: 1.2rem;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <div
+                      style="justify-content: space-around"
+                      class="social-links"
+                    >
+                      <a
+                        href="https://twitter.com/starhasibul"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/hasibul12"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="https://github.com/starhasibul"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="faq" class="section-spacer section-faq">
+      <div class="container">
+        <header class="section-header text-center">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </header>
+        <div class="row" style="display: flex">
+          <div class="col-6">
+            <h3>Who can become a member?</h3>
+            <p>
+              The clubs is open to any student, ranging from novice developers
+              who are just starting, to advanced developers who want to further
+              their skills.
+            </p>
+          </div>
+          <div class="col-6">
+            <h3>How frequently do events and workshops occur?</h3>
+            <p>
+              We hold workshops and showcases at
+              <strong>Calcutta Institute Of Engineering &amp; Management</strong>
+              &amp; we would recommend you to join our community by becoming a
+              member to get updates.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="display: flex">
+          <div class="col-6">
+            <h3>What should I carry when attending a workshop?</h3>
+            <p>
+              We recommend you carry with you a notebook, pen and a laptop
+              because more often than not we make our hands dirty with code.
+              Most importantly, carry along a healthy dose of curiosity and
+              enthusiasm.
+            </p>
+          </div>
+          <div class="col-6">
+            <h3>Who should I reach out to if I have any questions?</h3>
+            <p>
+              If you have any questions or comments, please don't hesitate to
+              contact us by clicking the button below. We would be happy to stay
+              engaged via email even after the event
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="mt-40 text-center">
+        <a
+          href="mailto:dsc.ciem.club@gmail.com"
+          class="hero-button"
+          style="border-radius: 1.4rem"
+          >Send us an email</a
+        >
+      </div>
+    </section>
+
+    <footer id="footer" class="section-spacer">
+      <div class="container">
+        <div class="cols">
+          <div class="col-4">
+            <div class="footer-widget">
+              <img
+                class="logo-sm mb-10"
+                alt="DSC CIEM logo"
+                src="/img/DSC_Chapter_Logos/DSC_Ciem_Light_Vertical_Logo.png"
+                height="60"
+                width="300"
+              />
+              <p>
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                | All Rights Reserved.
+              </p>
+              <span>Feel free to drop us an email at </span>
+              <a href="mailto:dsc.ciem.club@gmail.com">dsc.ciem.club@gmail.com</a>
+              <ul class="social-list mt-10">
+                <!-- <li>
+                  <a
+                    href="https://twitter.com/Dsc"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li> -->
+                <li>
+                  <a
+                    href="https://github.com/dscciem/"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/dscciem/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/groups/13905325"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-8 col-sm-10">
+            <div class="cols">
+              <div class="col-4 col-sm-6">
+                <div class="footer-widget">
+                  <h4 class="title">Programs</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://www.womentechmakers.com/" target="_blank"
+                        >Women Techmakers</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://developers.google.com/experts/"
+                        target="_blank"
+                        >Google Developer Experts</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://developers.google.com/programs/community/"
+                        target="_blank"
+                        >Google Developer Groups</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-4 col-sm-6">
+                <div class="footer-widget">
+                  <h4 class="title">Developers</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        href="https://console.firebase.google.com/"
+                        target="_blank"
+                        >Firebase console</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://console.cloud.google.com/"
+                        target="_blank"
+                        >Google Cloud Platform</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://console.actions.google.com/"
+                        target="_blank"
+                        >Actions on Google</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="footer-widget">
+                  <h4 class="title">Contribute</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a
+                        href="mailto:dsc.ciem.club@gmail.com"
+                        target="_blank"
+                        >Found a bug</a
+                      >
+                    </li>
+                    <!-- <li>
+                      <a
+                        href="https://github.com/dscciem/dscciem.github.io/"
+                        target="_blank"
+                        >View source</a
+                      >
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="margin-top-md margin-bottom-xl text-center flex flex-column flex-center">
+        
+      Made with <b style="color: red;">&#x2764;&#xfe0f;</b> by 
+      <a href="https://www.sagnik.engineer/" style="color: black;">Sagnik</a>
+    </p>
+    <a href="#" id="scroll" style="display: inline"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+    ></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>
