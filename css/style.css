@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -109,11 +111,21 @@ a:hover {
 }
 
 .btn {
+  margin: 15px 15px 5px 0px;
   color: #fff;
   background: rgb(29, 72, 212);
   text-decoration: none;
   padding: 10px;
 }
+
+.add-to-home{
+  border: none;
+  border-color: #fafafa;
+  cursor: pointer;
+  font-size : 15px
+}
+
+
 
 /* Navbar styling */
 .navbar {

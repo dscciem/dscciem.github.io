@@ -32,6 +32,7 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="manifest" href="manifest.json">
   </head>
 
   <body>
@@ -116,6 +117,15 @@
                 ><i class="fab fa-meetup"></i> &nbsp; Join on Discord
                 
               </a>
+              <button
+                id="add-to-home"
+                class="btn add-to-home"
+                style="border-radius: 1.4rem"
+                >
+                <i class="fas fa-mobile"></i>
+                &nbsp; Add to Homescreen
+                
+            </button>
             </div>
           </div>
           <div class="col-sm-5 ml-auto">
@@ -979,5 +989,6 @@
       src="https://code.jquery.com/jquery-3.4.1.min.js"
     ></script>
     <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="js/pwa.js"></script>
   </body>
 </html>

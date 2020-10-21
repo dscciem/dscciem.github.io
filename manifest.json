@@ -1,0 +1,21 @@
+{
+    "short_name": "DSC-CIEM",
+    "name": "DSC-CIEM: Official app for DSC-CIEM",
+    "description": "Get the latest updates about our club.",
+    "icons": [
+      {
+        "src": "img/DSC_Chapter_Logos/dsc-ciem.png",
+        "type": "image/png",
+        "sizes": "400x400"
+      },
+      {
+        "src": "img/DSC_Chapter_Logos/dsc-ciem.png",
+        "type": "image/png",
+        "sizes": "400x400"
+      }
+    ],
+    "start_url": "http://127.0.0.1:5500/index.html",
+    "background_color": "#2F5BE7",
+    "display": "standalone",
+    "theme_color": "#2F5BE7"
+  }
